@@ -1,0 +1,6 @@
+Agent ID,Agent name,Username,Billing Policy ID,Past seven days,Past 30 days,Last activity date (UTC)
+P_11111111-aaaa-4bbb-8ccc-000000000001,Writing Coach,dana@contoso.com,00000000-0000-4000-8000-0000000000a1,48,190,2026-09-29
+P_11111111-aaaa-4bbb-8ccc-000000000001,Writing Coach,eli@contoso.com,00000000-0000-4000-8000-0000000000a1,24,60,2026-09-27
+P_11111111-aaaa-4bbb-8ccc-000000000002,Policy Finder,dana@contoso.com,00000000-0000-4000-8000-0000000000a1,36,120,2026-09-30
+P_11111111-aaaa-4bbb-8ccc-000000000002,Policy Finder,farah@contoso.com,00000000-0000-4000-8000-0000000000b2,60,240,2026-09-28
+P_11111111-aaaa-4bbb-8ccc-000000000003,Sales Brief Builder,john@contoso.com,00000000-0000-4000-8000-0000000000b2,0,36,2026-09-12

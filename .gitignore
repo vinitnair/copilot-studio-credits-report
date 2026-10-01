@@ -1,0 +1,17 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Generated reports and inputs can contain tenant and user data - never commit them
+*.xlsx
+*.csv
+!samples/*.xlsx
+!samples/*.csv
+~$*
+
+# Token cache
+.copilot-credits-report/
+token_cache.bin
+*.bin
