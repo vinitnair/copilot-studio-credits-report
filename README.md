@@ -19,6 +19,12 @@ Who used which agent, how many Copilot Credits did it consume, and what did it c
 - **The per-agent consumption API is closed to customers.** In September 2026 Microsoft restricted `GET /licensing/entitlements/MCSMessages/resources` to the Power Platform admin center (PPAC). See [Power-CAT-Copilot-Studio-Kit #855](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/855).
 - **The user-level endpoints still work.** They are part of the same documented API and return **agent × feature credits for every user, per day**. This tool walks them user by user, adds the billing policy and the user's department, and ties the result back to the Azure bill.
 
+This is what Azure Cost Management shows for Copilot Studio pay-as-you-go: one line per billing policy per day, with no agent or user.
+
+![Azure Cost Management showing one Copilot Studio line per billing policy (sample data)](docs/images/azure-cost-analysis-sample.png)
+
+*Sample data. The hr-payg line ($2.12) is alice's $1.25 plus bob's $0.87 from the table above. Azure can't show that split. This report can.*
+
 ## What you get
 
 - **An Excel workbook.** All totals and costs are Excel formulas, and the rate per credit is an input cell.
